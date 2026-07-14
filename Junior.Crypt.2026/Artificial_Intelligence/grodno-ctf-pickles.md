@@ -1,4 +1,4 @@
-﻿+++
++++
 title = 'Pickles — Write-up'
 date = '2026-07-14T08:03:00+07:00'
 draft = false
@@ -65,7 +65,7 @@ Nghĩa là: load `model.pkl` từ nguồn không rõ = chạy code không rõ, k
 
 Vì không có source code gốc, mình đưa `payload.pyc` lên [pylingual.io](https://pylingual.io) để dịch ngược.
 
-![Giao diện pylingual.io sau khi upload payload.pyc — source code hiện ra hoàn chỉnh](/images/write-ups/grodno-ctf-pickles/pylingual_decompile.jpeg)
+![Giao diện pylingual.io sau khi upload payload.pyc — source code hiện ra hoàn chỉnh](images/pylingual_decompile.jpeg)
 
 Kết quả là source code hoàn chỉnh:
 
@@ -117,7 +117,7 @@ Source code đã ở trước mắt. Tên hàm `install_supply_chain_probe` khô
 
 ## Phần 3: Phân tích logic backdoor
 
-![Sơ đồ toàn bộ cơ chế backdoor trong model.pkl — luồng bình thường (xanh) và luồng kẻ tấn công kích hoạt cửa hậu (đỏ)](/images/write-ups/grodno-ctf-pickles/backdoor_diagram.png)
+![Sơ đồ toàn bộ cơ chế backdoor trong model.pkl — luồng bình thường (xanh) và luồng kẻ tấn công kích hoạt cửa hậu (đỏ)](images/backdoor_diagram.png)
 
 Đây là phần mấu chốt. Bóc tách từng lớp của `infer()`:
 
