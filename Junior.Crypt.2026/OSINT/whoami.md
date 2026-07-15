@@ -12,8 +12,8 @@
 ## 1. Phân tích đề bài 
 Chúng ta có những manh mối như sau:
 > **Oklahoma:** Bang Oklahoma ở Mỹ
-> **Antique CO-OP:** Bảng tên trong hình ảnh
-> ****
+
+> **Antique CO-OP:** Bảng tên trong hình ảnh 
 
 Ban đầu tôi đã nghĩ bức tranh này được chụp bởi người trong hình, nên tôi đã dùng exiftool để đọc metadata, nhưng không có manh mối về vị trí của bức ảnh đã được chụp.
 
