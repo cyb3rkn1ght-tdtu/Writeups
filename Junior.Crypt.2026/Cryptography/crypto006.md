@@ -116,6 +116,10 @@ grodno{571ll_4l1v3_bu7_g14d05_k3375_r3w5171ng_m35s4g35}
 
 ## 6. Tài liệu tham khảo
 
-1. Franklin-Reiter Related Message Attack
-2. RSA Cryptosystem
-3. Boneh, D. - Twenty Years of Attacks on the RSA Cryptosystem
+## 6. Tài liệu tham khảo
+
+1. [Franklin-Reiter Related Message Attack](https://en.wikipedia.org/wiki/Coppersmith%27s_attack#Franklin-Reiter_related-message_attack)
+
+2. [RSA Cryptosystem](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+
+3. [Twenty Years of Attacks on the RSA Cryptosystem - Dan Boneh](https://crypto.stanford.edu/~dabo/pubs/papers/RSA-survey.pdf)
